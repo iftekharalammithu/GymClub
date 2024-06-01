@@ -1,0 +1,77 @@
+.testimonials {
+  /* border: 1px solid white; */
+  display: flex;
+  gap: 2rem;
+  padding: 0 2rem;
+  /* margin-bottom: 4rem; */
+}
+
+.left-t {
+  /* border: 1px solid rgb(207, 42, 42); */
+  color: white;
+  flex: 1 1;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.left-t > :nth-child(1) {
+  color: orange;
+  font-weight: bold;
+}
+
+.left-t > :nth-child(2),
+.left-t > :nth-child(3) {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.testi-name {
+  color: orange;
+}
+.testi-review {
+  text-transform: none;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+.right-t {
+  /* border: 1px solid white; */
+
+  flex: 1;
+  position: relative;
+}
+.right-t > img {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  right: 8rem;
+  top: 2rem;
+  object-fit: cover;
+}
+.right-t > :nth-child(1) {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  border: 2px solid orange;
+  right: 9rem;
+  top: 0.9rem;
+}
+.right-t > :nth-child(2) {
+  position: absolute;
+  width: 17rem;
+  height: 19rem;
+  background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  right: 7rem;
+  top: 4rem;
+}
+.arrow {
+  display: flex;
+  position: absolute;
+  gap: 1rem;
+  bottom: 1rem;
+  left: 3rem;
+}
+.arrow > img {
+  width: 1.5rem;
+  cursor: pointer;
+}
